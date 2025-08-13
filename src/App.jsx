@@ -5,7 +5,8 @@ import './App.css'
 import Saudacao from './componentes/Saudacao.jsx'
 import Rodape from './componentes/Rodape.jsx'
 import Alerta from './componentes/Alerta/Alerta.jsx'
-import Botao from './componentes/Email_Password_Input/LoginButton.jsx'
+
+import Login from './componentes/Email_Password_Field/LoginForm.jsx'
 
 function App() {
   
@@ -40,7 +41,7 @@ function App() {
       </div>
       <Saudacao />
       <Alerta />
-      <Botao />
+      <Login />
       <Rodape />
 		</div>  
 	)
