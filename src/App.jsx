@@ -7,7 +7,7 @@ import SectionContent from './componentes/Projeto_Integrador/Login/Tela/sectionC
 function App() {
   
     return (
-    <main className="container">
+    <main className={styles.container}>
         <SectionContent />
     </main>
   );

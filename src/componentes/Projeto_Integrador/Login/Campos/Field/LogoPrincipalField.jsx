@@ -1,8 +1,10 @@
+import styles from './LogoPrincipalField.module.css';
+
 import LogoPrincipal from '../Imagens/LogoPrincipal.jsx';
 function LogoPrincipalField() {
   return (
 
-    <div className="logo-container">
+    <div className={styles.logocontainer}>
         <LogoPrincipal />
     </div>
 

@@ -1,3 +1,5 @@
+import styles from './SectionContet.module.css';
+
 
 import LogoPrincipalField from '../Campos/Field/LogoPrincipalField.jsx';
 import TextoPrincipalField from '../Campos/Field/TextoPrincipalField.jsx';
@@ -9,13 +11,13 @@ import CriarNovaConta from '../Campos/Field/CriarNovaContaField.jsx';
  
 function SectionContet() {
   return (
-    <section className="content">
-        <LogoPrincipalField />
-        <TextoPrincipalField />
-        <FormLogin />
-        <CriarNovaConta />
+      <section className={styles.content}>
+          <LogoPrincipalField />
+          <TextoPrincipalField />
+          <FormLogin />
+          <CriarNovaConta />
 
-    </section>
+      </section>
   );
 }
 export default SectionContet;

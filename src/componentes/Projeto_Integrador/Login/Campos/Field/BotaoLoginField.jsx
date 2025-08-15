@@ -1,10 +1,9 @@
-import BotaoLoginField from '../Inputs/BotaoLoginInput.jsx';
-
+import BotaoLoginInput from '../Inputs/BotaoLoginInput.jsx';
  
 function BotaoLoginField() {
   return (
 
-    <BotaoLoginField />
+    <BotaoLoginInput />
 
   );
 }

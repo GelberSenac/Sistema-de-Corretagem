@@ -1,4 +1,4 @@
-import styles from './LoginButton.module.css';
+
 function Botao() {
   return (
     <button type="submit" className="button">
