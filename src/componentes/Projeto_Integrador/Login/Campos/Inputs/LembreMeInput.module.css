@@ -1,0 +1,33 @@
+/* Estilo para o checkbox */
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.checkbox:checked {
+  background-color: #fc9a34;
+  border-color: #fc9a34;
+}
+
+.checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(252, 154, 52, 0.5);
+}

@@ -1,12 +1,14 @@
+import styles from './CriarNovaContaField.module.css';
 
-function CriarNovaSenhaField() {
+function CriarNovaContaField() {
   return (
-
-    <div className="signup-container">
+    <div className={styles['signup-container']}>
         <span>Não tem uma conta?</span>
-        <a id="criar-nova-conta" href="#">Criar nova conta</a>
+        <a href="#" className={styles['criar-nova-conta']}>
+          <i className="fas fa-user-plus"></i> Criar nova conta
+        </a>
     </div>
-
-  )
+  );
 }
-export default CriarNovaSenhaField;
+
+export default CriarNovaContaField;

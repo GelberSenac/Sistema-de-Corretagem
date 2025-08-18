@@ -1,3 +1,11 @@
+body {
+  padding: 0;
+  width: auto;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -28,7 +36,7 @@ input:focus {
 
 .container {
   height: 100vh; /*100% da altura da viewport*/
-  background-image: url('../../../../../assets/Fundo/4e78c421-e227-81f3-8006-7ed830a9d1e4.jpg'); /*Fundo da página*/
+  background-image: url('./assets/Fundo/4e78c421-e227-81f3-8006-7ed830a9d1e4.jpg'); /*Fundo da página*/
   background-size: cover; /*Cobre todo o container*/
   background-position: center; /*Centraliza a imagem*/
   background-repeat: no-repeat; /*Não repete a imagem*/

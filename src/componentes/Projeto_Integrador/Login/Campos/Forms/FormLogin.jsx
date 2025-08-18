@@ -9,7 +9,7 @@ import LoginButton from '../Field/BotaoLoginField.jsx';
 function LoginForm() {
   return (
     <form id={styles.logoform} action="./principal.html" method="get">
-        <EmailField />
+        <EmailField className="" />
         <PasswordField />
         <LembreMeField />
         <LoginButton />

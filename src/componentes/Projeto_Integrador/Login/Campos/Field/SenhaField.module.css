@@ -1,0 +1,21 @@
+/* Estilo para o grupo de input de senha */
+.input-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Estilo para o ícone */
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  z-index: 1;
+}
+
+/* Quando tiver ícone, ajustar o padding do input */
+.with-icon input {
+  padding-left: 40px;
+}

@@ -11,7 +11,7 @@ import CriarNovaConta from '../Campos/Field/CriarNovaContaField.jsx';
  
 function SectionContet() {
   return (
-      <section className={styles.content}>
+      <section className={styles['content']}>
           <LogoPrincipalField />
           <TextoPrincipalField />
           <FormLogin />

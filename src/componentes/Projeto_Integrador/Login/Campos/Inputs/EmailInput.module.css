@@ -1,0 +1,17 @@
+/* Estilo para o campo de email */
+.email-input {
+  height: 45px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #fc9a34;
+  box-shadow: 0 0 5px rgba(252, 154, 52, 0.5);
+}
