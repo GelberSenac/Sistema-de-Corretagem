@@ -6,6 +6,7 @@ import Saudacao from './componentes/Saudacao/Saudacao.jsx';
 import Alerta from './componentes/Alerta/Alerta.jsx';
 import LoginForm from './componentes/Email_Password_Field/LoginForm.jsx';
 import Contador from './componentes/Contador_UseState/Contador.jsx';
+import ModoNoturno from './componentes/Contador_UseState/Tema.jsx';
 import Rodape from './componentes/Rodape/Rodape.jsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Alerta />
             <LoginForm />
             <Contador />
+            <ModoNoturno />
             <Rodape />
       </div>
         
