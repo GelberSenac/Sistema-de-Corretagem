@@ -1,19 +1,25 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import styles from './App.module.css'
-import SectionContent from './componentes/Projeto_Integrador/Login/Tela/sectionContet.jsx';
+
+import Saudacao from './componentes/Saudacao/Saudacao.jsx';
+import Alerta from './componentes/Alerta/Alerta.jsx';
+import LoginForm from './componentes/Email_Password_Field/LoginForm.jsx';
+import Contador from './componentes/Contador_UseState/Contador.jsx';
+import Rodape from './componentes/Rodape/Rodape.jsx';
 
 function App() {
   
     return (
-    <div className={styles.body}>
-      <main className={styles.container}>
-          <SectionContent />
-      </main>
-    </div>
+      <div>
+            <Saudacao />
+            <Alerta />
+            <LoginForm />
+            <Contador />
+            <Rodape />
+      </div>
+        
   );
 
 }
-
 export default App

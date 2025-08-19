@@ -1,0 +1,12 @@
+
+.container {
+  height: 100vh; /*100% da altura da viewport*/
+  background-image: url('./assets/Fundo/4e78c421-e227-81f3-8006-7ed830a9d1e4.jpg'); /*Fundo da página*/
+  background-size: cover; /*Cobre todo o container*/
+  background-position: center; /*Centraliza a imagem*/
+  background-repeat: no-repeat; /*Não repete a imagem*/
+  display: flex; /*Faz com que o conteúdo fique centralizado*/
+  justify-content: center; /*Centraliza o conteúdo horizontalmente*/
+  align-items: center; /*Centraliza o conteúdo verticalmente*/
+
+}
